@@ -1,6 +1,9 @@
 package dto;
 import java.time.LocalDate;
 
+/**
+ * タスクDTOクラス
+ */
 public class TaskDto {
 
     private int taskId;

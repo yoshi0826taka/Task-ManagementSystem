@@ -1,5 +1,8 @@
 package dto;
 
+/**
+ * コメントDTOクラス
+ */
 public class Comment {
     private int commentId;
     private int taskId;

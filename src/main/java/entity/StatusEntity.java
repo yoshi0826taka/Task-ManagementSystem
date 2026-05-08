@@ -1,7 +1,9 @@
 package entity;
 
 import java.time.LocalDateTime;
-
+/**
+ * ステータスエンティティクラス
+ */
 public class StatusEntity {
     private int categoryId;
     private String categoryName;

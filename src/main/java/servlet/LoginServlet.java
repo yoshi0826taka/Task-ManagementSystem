@@ -14,6 +14,9 @@ import javax.servlet.http.HttpSession;
 import db.ConMng;
 import entity.UserEntity;
 
+/**
+ * ログイン処理用サーブレット
+ */
 @WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
     

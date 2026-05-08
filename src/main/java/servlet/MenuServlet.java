@@ -13,6 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+/**
+ * メニュー画面用サーブレット
+ */
 @WebServlet("/MenuServlet")
 public class MenuServlet extends HttpServlet {
     @Override

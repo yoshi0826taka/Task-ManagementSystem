@@ -2,6 +2,9 @@ package entity;
 
 import java.time.LocalDateTime;
 
+/**
+ * コメントエンティティクラス
+ */
 public class CommentEntity {
     private int commentId;
     private int taskId;

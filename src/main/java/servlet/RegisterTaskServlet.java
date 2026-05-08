@@ -13,6 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+/**
+ * タスク登録用サーブレット
+ */
 @WebServlet("/RegisterTaskServlet")
 public class RegisterTaskServlet extends HttpServlet {
     @Override

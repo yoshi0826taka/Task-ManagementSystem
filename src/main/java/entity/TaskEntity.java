@@ -3,6 +3,9 @@ package entity;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+/**
+ * タスクエンティティクラス
+ */
 public class TaskEntity {
     private int taskId;
     private String taskName;

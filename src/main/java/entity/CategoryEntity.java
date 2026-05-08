@@ -2,6 +2,9 @@ package entity;
 
 import java.time.LocalDateTime;
 
+/**
+ * カテゴリーエンティティクラス
+ */
 public class CategoryEntity {
     private int categoryId;
     private String categoryName;

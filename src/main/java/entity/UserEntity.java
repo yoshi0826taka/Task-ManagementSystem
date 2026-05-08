@@ -2,6 +2,9 @@ package entity;
 
 import java.time.LocalDateTime;
 
+/**
+ * ユーザーエンティティクラス
+ */
 public class UserEntity {
     private String userId;
     private String password;

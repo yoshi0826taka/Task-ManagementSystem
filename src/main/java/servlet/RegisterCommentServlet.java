@@ -12,6 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+/**
+ * コメント登録用サーブレット
+ */
 @WebServlet("/RegisterCommentServlet")
 public class RegisterCommentServlet extends HttpServlet {
     @Override

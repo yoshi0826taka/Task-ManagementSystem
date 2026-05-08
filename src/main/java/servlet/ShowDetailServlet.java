@@ -14,6 +14,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+/**
+ * タスク詳細表示用サーブレット
+ */
 @WebServlet("/ShowDetailServlet")
 public class ShowDetailServlet extends HttpServlet {
     @Override
