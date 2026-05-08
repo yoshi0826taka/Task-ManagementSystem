@@ -56,16 +56,28 @@ src/main/webapp
 MySQLを起動し、以下のSQLを実行します。
 
 ```bash
-mysql -u root -p < sql/create_task_db.sql
+mysql -u <DB_USER> -p < sql/create_task_db.sql
 ```
 
-接続情報は `src/main/java/db/ConMng.java` で管理しています。
+`sql/create_task_db.sql` には動作確認用のサンプルユーザーが含まれます。サンプルパスワードは教材用の平文データであり、本番利用を想定したものではありません。
+
+DB接続情報は環境変数で指定します。公開リポジトリに個人ローカルのユーザー名やパスワードは記載していません。
 
 ```text
-URL  : jdbc:mysql://localhost:3306/task_db?serverTimezone=UTC
-USER : root
-PW   : mysqldb
+TASK_DB_URL
+TASK_DB_USER
+TASK_DB_PASSWORD
 ```
+
+例:
+
+```bash
+export TASK_DB_URL="jdbc:mysql://<HOST>:<PORT>/<DATABASE_NAME>?serverTimezone=UTC"
+export TASK_DB_USER="<DB_USER>"
+export TASK_DB_PASSWORD="<DB_PASSWORD>"
+```
+
+ユーザー名、パスワード、ホスト名などは各自のローカル環境に合わせて設定してください。実際の接続情報はGit管理しません。
 
 ### 2. ビルド
 
