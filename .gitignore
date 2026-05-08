@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java / Maven build output
+target/
+build/
+*.class
+*.war
+*.ear
+
+# Local IDE settings
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Bundled dependencies are resolved by Maven
+src/main/webapp/WEB-INF/lib/
+
+# Accidental empty webapp artifact
+src/main/webapp/ShowDetailServlet
+
+# Local database files
+*.db
+*.sqlite
